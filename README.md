@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/happner/dface.svg?branch=master)](https://travis-ci.org/happner/dface)
+
 # dface
 
 get ip address by interface
@@ -27,3 +29,7 @@ dface('eth0/ipv4/1') == '55.5.34.99'; // assuming eth0 has a second ip (alias)
 
 dface('eth69/ipv4') THROWS Error('no such interface eth66/ipv4');
 ```
+
+in case of confusion, see your interfaces
+
+`node -e 'console.log(os.networkInterfaces())'`
