@@ -1,3 +1,4 @@
+[![npm](https://img.shields.io/npm/v/dface.svg)](https://www.npmjs.com/package/dface)
 [![Build Status](https://travis-ci.org/happner/dface.svg?branch=master)](https://travis-ci.org/happner/dface)
 
 # dface
