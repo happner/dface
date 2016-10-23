@@ -4,6 +4,8 @@ module.exports = function(spec) {
 
   if (!spec) return '0.0.0.0';
 
+  if (spec == 'localhost') return;
+
   if (spec.match(/\./) || spec.match(/\:/)) return spec;
 
   var parts = spec.split('/');
